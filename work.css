@@ -1,0 +1,45 @@
+#body{
+    background-color: azure;
+    display: flex;
+    
+}
+#e{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+
+}
+.ee{
+    text-align: center;
+    justify-items: center;
+    border: 1px solid rgb(202, 192, 192);
+    margin: 1%;
+    position: relative;
+}
+img{
+    border-radius: 20%; 
+    padding: 2%;
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+h4{
+    color: rgb(192, 179, 179) ;
+}
+p{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span{
+    color: brown;
+}
+button{
+   position: absolute;
+   top: 55%;
+   left: 30%;
+   border-radius: 15%;
+   padding: 0.5%
+
+}
